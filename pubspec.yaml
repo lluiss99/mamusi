@@ -1,0 +1,47 @@
+name: audio_app
+description: Reproductor de audio local para Android, hecho con Flutter.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio
+  just_audio: ^0.9.36
+  audio_service: ^0.18.13
+  audio_session: ^0.1.21
+
+  # File picking
+  file_picker: ^8.1.2
+
+  # IDs
+  uuid: ^4.3.3
+
+  # Local storage
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  sqflite: ^2.3.2
+
+  # Preferences
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/tocadisco.png"
+  adaptive_icon_background: "#1a0a2e"
+  adaptive_icon_foreground: "assets/icon/tocadisco.png"

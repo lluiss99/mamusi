@@ -1,0 +1,32 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+local.properties
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+.claude/
+
+# Configuración y contenido personal: nunca al repo
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+*.env
+assets/album covers/
+
+# Misc
+*.class
+*.log
+.DS_Store
