@@ -42,3 +42,7 @@ flutter run
 ```
 
 Al abrirla por primera vez la biblioteca está vacía: ve a **Añadir** e importa audios desde el móvil.
+
+
+<img width="1080" height="2237" alt="image" src="https://github.com/user-attachments/assets/223cffe2-1ea8-4a9b-8423-3d473b6c4885" />
+
